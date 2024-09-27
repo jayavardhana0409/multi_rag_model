@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prompt Response</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your File for AI Response</h1>
+        
+        <!-- Option to upload a file -->
+        <label for="fileUpload">Upload a file:</label>
+        <input type="file" id="fileUpload" accept=".txt,.pdf,.docx,.jpg,.png">
+        
+        <!-- Prompt input -->
+        <label for="userPrompt">Enter your prompt for the file:</label>
+        <textarea id="userPrompt" placeholder="Enter your prompt here..."></textarea>
+
+        <button id="submitPrompt">Submit</button>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
